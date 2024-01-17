@@ -1,0 +1,18 @@
+---
+title: "Untitled"
+format: 
+  html: 
+    css: cornell.css
+---
+
+::: cues-header
+A cue
+:::
+
+<aside class="markdown-source-view cornell-note">Cue</aside>
+
+<summary class="cornell-note>This is a summary</summary>
+
+::: {.markdown-preview-view.cornell-note .markdown-preview-sizer}
+<p>Hello world</p>
+:::
