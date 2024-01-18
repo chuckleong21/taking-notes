@@ -1,59 +1,101 @@
 .cornell-page {
-    width: 8.27in;
-    height: 11.69in;
-    margin: auto;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 0.5in;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .title-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 5%;
-  }
-  
-  .title-box h1 {
-    text-align: left;
-    margin: 0;
-  }
-  
-  .metadata {
-    text-align: right;
-    font-size: 14px;
-    margin-top: 0.5em;
-  }
-  
-  .notes-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    height: calc(100% - 2in);
-    padding-bottom: 3%;
-  }
-  
-  .cue-column {
-    width: calc(33.33% - 0.5em);
-    margin-right: 0.5em;
-    border-right: 1px solid #ccc;
-    padding-right: 0.5em;
-  }
-  
-  .cues {
-  }
-  
-  .notes-column {
-    width: calc(66.67% - 0.5em);
-    overflow: hidden;
-    padding-left: 0.5em;
-  }
-  
-  .summary-box {
-    height: 2in;
-  }
-  
+  width: 8.27in;
+  height: 11.69in;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0.5in;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+.title-box h1 {
+  text-align: left;
+  margin: 0;
+}
+
+.metadata {
+  text-align: left;
+  font-size: 14px;
+  margin-top: 0.5em;
+  margin-right: 5em;
+}
+
+.metadata span {
+  display: flex;
+}
+
+.metadata .date::before {
+  content: "Date: ";
+  padding-right: 0.5em;
+}
+
+.metadata .keyword::before {
+  content: "Keyword:";
+  padding-right: 0.5em;
+}
+
+.notes-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  height: calc(100% - 2in);
+  padding-bottom: 3%;
+}
+
+.cue-column {
+  width: calc(33.33% - 0.5em);
+  margin-right: 0.5em;
+  border-right: 2px solid #84ceff;
+  padding-right: 0.5em;
+}
+
+.cues {
+  text-align: end;
+  /* padding-right: calc(10px + 10px); */
+  padding-bottom: 5%;
+  /* padding-left: 0.5em; */
+  box-sizing: content-box;
+  align-content: flex-end;
+  flex: 1 0 auto;
+  color: rgb(88, 88, 88);
+}
+
+.definition {
+  background-image: linear-gradient(to right, #fffdfd, #84ceff);
+  border-left: solid #84ceff;
+}
+
+.question {
+  background-image: linear-gradient(to right, #fffdfd, #faf8a4);
+  border-left: solid #faf8a4;
+}
+
+.headsup {
+  background-image: linear-gradient(to right, #fffdfd, #f78c84);
+  border-left: solid #f78c84;
+}
+
+.cues .p {
+  display: flex;
+  flex-direction: column;
+}
+
+.notes-column {
+  width: calc(66.67% - 0.5em);
+  overflow: hidden;
+  padding-left: 0.5em;
+}
+
+.summary-box {
+  height: 2in;
+}
