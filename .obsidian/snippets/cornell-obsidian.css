@@ -1,0 +1,32 @@
+/* i only add this part to make it work in LP */
+.markdown-source-view.mod-cm6 .cm-html-embed:has(aside) {
+    display: inline;
+}
+/* this is the original css, unchanged */
+aside {
+    float: right;
+    border: 1px solid lightgrey;
+    padding: 8px;
+    position: relative;
+    left: 170px;
+    width: 155px;
+    box-shadow: 5px 8px #8272d0;
+    color: black;
+}
+
+aside.def {
+    box-shadow: 5px 8px #247BA0;
+    color: #247BA0;
+}
+
+aside.descr {
+    box-shadow: 5px 8px #70C1B3;
+    color: #70C1B3;
+
+}
+
+aside.danger {
+    box-shadow: 5px 8px #F25F5C;
+    color: #F25F5C;
+
+}

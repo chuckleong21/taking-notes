@@ -1,0 +1,166 @@
+{
+  "main": {
+    "id": "750b3a33293fba5a",
+    "type": "split",
+    "children": [
+      {
+        "id": "15c8a736a0faae76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b2fb5d512c5eafe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/project-tidylabel/Working with Excel data in R.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0ed851c3519f1d74",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bff1f4731f4289e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6d1d6eb333238c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9263230908dc393a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6debcb1507b69caa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2268b04c20387df0",
+    "type": "split",
+    "children": [
+      {
+        "id": "deb3e7493eb6076c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "178017ca2dedf6dd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/project-tidylabel/Working with Excel data in R.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7b5e3af33c5a0957",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "posts/project-tidylabel/Working with Excel data in R.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "855912e40bab7c60",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba2121d7d85987be",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts/project-tidylabel/Working with Excel data in R.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5b2fb5d512c5eafe",
+  "lastOpenFiles": [
+    "posts/project-tidylabel/Write tabular data to Word in R.md",
+    "posts/project-tidylabel/Working with Excel data in R.md",
+    "posts/project-tidylabel/From a function to a production.md",
+    "Pasted image 20240121165725.png",
+    "Pasted image 20240121163749.png",
+    "^.md",
+    "From a function to a production^project-scope1.md",
+    "From.md",
+    "Pasted image 20240121142513.png",
+    "Pasted image 20240121144513.png",
+    "Pasted.md",
+    "Untitled.md",
+    "profile.jpg",
+    "posts/project-tidylabel"
+  ]
+}
